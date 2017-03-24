@@ -1,0 +1,69 @@
+.headerStuff{
+	border: solid;
+	background: rgb(0,0,0);
+	max-width: 100%;
+	height: 20%;
+}
+
+#upload-button {
+	max-width: 100%;
+	width: 6.3%;
+	float: right;
+	}
+	
+#upload-button-container{
+	max-width: 100%;
+}
+
+#upload-text {
+max-width: 100%;
+width: 10%;
+height: 20%;
+font-family: Comic Sans MS;
+color: white;
+background: rgb(0,200,255);
+}
+
+#Logo {
+max-width: 100%;
+width: 10%;
+height: 20%;
+font-family: Comic Sans MS;
+color: white;
+padding-left: 0%;
+background: rgb(0,200,255);
+}
+	
+#recommended-button{
+max-width: 100%;
+width: 10%;
+}
+
+#N {
+	font-family: Comic Sans MS;
+}
+
+.stuff {
+padding: 2%;
+background-color: white;
+border-style: dashed;
+border-color: purple;
+}
+
+#player {
+border-style: solid;
+}
+
+#playbutton{
+max-width: 100%;
+display: block;	
+}
+
+#song-title{
+	font-family: Comic Sans MS;
+}
+
+#like-button{
+	max-width: 100%;
+	width: 5%;
+}
