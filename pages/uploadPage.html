@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Headmag</title>
+  <meta name="description" content="Headmag">
+  <meta name="author" content="Strudle Master">
+  <link rel="stylesheet" href="../css/styles.css">
+
+</head>
+	
+<body>
+	<!--Header-->
+	<div class="headerStuff">
+		<a href="index.html"> <img src="../images/headmag.png" id="Logo" alt=Headmag> </a>
+		<a href="../pages/recommended.html"> <img src="../images/recommended.png" id="recommended-button" alt=Recommended> </a>
+		<a href="../pages/uploadPage.html" id="upload-button-container"> <img src="../images/upload.png" id="upload-button"> </a>
+		<a href="../pages/games.html"> <img src="../images/games.png" id="Logo"></a>
+		<a href="../pages/movies.html"> <img src="../images/movies.png" id="Logo"></a>
+	</div>
+	
+	<div class="stuff">
+	<!-- <a id="upload-text">Upload Files and Shit</a>  -->
+	<form action="upload.php" method="post" enctype="multipart/form-data">
+	<input type="file" name="fileToUpload" id="fileToUpload">
+	<input type="submit" value="Upload Image" name="submit">
+	</form>	
+	
+	</div>
+	
+  <script src="js/scripts.js"></script>
+</body>
+</html>
+
+

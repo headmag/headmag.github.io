@@ -1,0 +1,75 @@
+<div class="game-box">
+<div class="game-object center-block">
+<script type="text/javascript">
+                        var ads_removed = false;
+                        function removeAdSwf() {
+                            document.getElementById("preloader").style.visibility = "hidden";
+                            document.getElementById("loader_object").style.display="none";
+                            document.getElementById("loader_object").style.visibility="hidden";
+                            document.getElementById("skip_preload").style.display="none";
+                            document.getElementById('game_embed_tag').style.visibility="visible";
+                            document.getElementById('game_embed_tag').style.display="block";
+                            if (!ads_removed) {
+                                ads_removed = true;
+                                $('#game_embed').attr('src', 'http://www.gameflare.com/embed/slitherio/');
+                            }
+                        }
+
+                        function noAdsReturned() {
+                            document.getElementById("preloader").style.visibility = "hidden";
+                            document.getElementById("loader_object").style.display="none";
+                            document.getElementById("loader_object").style.visibility="hidden";
+                            document.getElementById("skip_preload").style.display="none";
+                            document.getElementById('game_embed_tag').style.visibility="visible";
+                            document.getElementById('game_embed_tag').style.display="block";
+                            if (!ads_removed) {
+                                ads_removed = true;
+                                $('#game_embed').attr('src', 'http://www.gameflare.com/embed/slitherio/');
+                            }
+                        }
+                        $( function(){
+                            $('#game_embed').attr('src', ''); //remove game during loading ads
+                            //setTimeout(function() { removeAdSwf(); }, 22000);
+                            $('.skip_preload_text').click(removeAdSwf);
+                            $('.skip_preload_loading').delay( 8000 ).hide(0);
+                            $('.skip_preload_text').delay( 8000 ).show(0);
+                        });
+                        </script>
+<div id="skip_preload" style="width: 900px !important; display: none;"><p class="skip_preload_loading" style="display: none;"><img src="http://www.gameflare.com/application/views/responsive/images/loading.gif" alt="loading" height="26"></p><p class="skip_preload_text" style="display: block;">Skip ad and play the game &gt;&gt;</p></div>
+<div id="loader_object" style="display: none; visibility: hidden;">
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="900" height="570" id="preloader" align="middle" style="visibility: hidden;">
+<param name="allowScriptAccess" value="always">
+<param name="allowFullScreen" value="false">
+<param name="movie" value="http://www.gameflare.com/ima3_preloader_1.5.swf">
+<param name="quality" value="high">
+<param name="bgcolor" value="#ffffff">
+<param name="flashvars" value="publisherId=ca-games-pub-6997479010326903&amp;descriptionUrl=http%3A%2F%2Fwww.gameflare.com%2Fonline-game%2Fslitherio%2F&amp;channels=3028920851&amp;adType=text_image_flash">
+<embed src="http://www.gameflare.com/ima3_preloader_1.5.swf" quality="high" bgcolor="#000000" width="900" height="570" name="preloader" align="middle" allowscriptaccess="always" allowfullscreen="false" type="application/x-shockwave-flash" flashvars="publisherId=ca-games-pub-6997479010326903&amp;descriptionUrl=http%3A%2F%2Fwww.gameflare.com%2Fonline-game%2Fslitherio%2F&amp;channels=3028920851&amp;adType=text_image_flash" pluginspage="http://www.adobe.com/go/getflashplayer">
+</object>
+</div>
+<div id="game_embed_tag" style="visibility: visible; display: block;">
+<iframe src="http://www.gameflare.com/embed/slitherio/" marginwidth="0" marginheight="0" frameborder="0" height="600" scrolling="no" width="900" id="game_embed" allowfullscreen=""></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<script type="text/javascript">
+$(function(){
+    $(document).on("click", ".block-promo a", function(){
+        ga('send', 'event', 'Game', 'click', 'Empire All EN');
+    });
+    ga('send', 'event', 'Game', 'views', 'Empire All EN');
+});
+</script>
+
+TO PLAY THE GAME, CLICK THE SHEILD ICON IN THE BAR WHERE YOU ENTERED THE SITE NAME, THEN PUSH LOAD UNSAFE SCRIPTS (unless you're a cool kid and use Firefox)
+<div id="textad" class="ads ad adsbox doubleclick ad-placement carbon-ads" style="width:0px;height:0px;"></div>
+</div>
+<script type="text/javascript">
+$(function(){
+    checkPromo("http://www.gameflare.com/promo/game/900", ".game_promo");
+});
+</script>
+</div>
+</div>
