@@ -1,8 +1,8 @@
 .headerStuff{
+	margin-top: 0;
 	border: solid;
 	background: rgb(0,0,0);
 	max-width: 100%;
-	height: 20%;
 }
 
 #upload-button {
@@ -10,30 +10,41 @@
 	width: 6.3%;
 	float: right;
 	}
-	
-#upload-button-container{
-	max-width: 100%;
-}
 
 #upload-text {
 max-width: 100%;
 width: 10%;
-height: 20%;
-font-family: Comic Sans MS;
+font-family: 'Comic Sans MS';
 color: white;
 background: rgb(0,200,255);
+}
+
+#header-player{
+	max-width: 100%;
+	width: 15%;
+	font-family: Comic Sans MS;
+	color: white;
+	padding-left: 0%;
 }
 
 #Logo {
 max-width: 100%;
 width: 10%;
-height: 20%;
 font-family: Comic Sans MS;
 color: white;
-padding-left: 0%;
+padding-left: 1px;
 background: rgb(0,200,255);
 }
-	
+
+#user-button {
+max-width: 100%;
+width: 10%;
+font-family: Comic Sans MS;
+color: white;
+padding-right: 1px;
+float: right;
+}
+
 #recommended-button{
 max-width: 100%;
 width: 10%;
@@ -44,19 +55,24 @@ width: 10%;
 }
 
 .stuff {
-padding: 2%;
-background-color: white;
+padding: 0;
 border-style: dashed;
-border-color: purple;
+border-color: rgb(200,0,255);
 }
 
 #player {
-border-style: solid;
+border-style: solid thick;
+padding: 0;
+}
+
+#audio-player{
+		border-style: solid;
+		border-color: black;
 }
 
 #playbutton{
 max-width: 100%;
-display: block;	
+display: block;
 }
 
 #song-title{

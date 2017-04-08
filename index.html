@@ -1,4 +1,4 @@
-﻿<!doctype html>
+  ﻿<!doctype html>
 <!--
 Headmag
 Gavin Rostar, Gavin Elmergreen, Garen Herbst
@@ -14,57 +14,56 @@ Music Streaming Service (mostly parodies/dank memes)
   <link rel="stylesheet" href="css/styles.css">
 
 </head>
-	
-<body>
-	<!--Header-->
+
+<body><!--Header-->
 	<div class="headerStuff">
 		<a href="index.html"> <img src="images/headmag.png" id="Logo" alt=Headmag> </a>
 		<a href="pages/recommended.html"> <img src="images/recommended.png" id="recommended-button" alt=Recommended> </a>
-		<a href="pages/uploadPage.html" id="upload-button-container"> <img src="images/upload.png" id="upload-button"> </a>
+		<a href="pages/uploadpage.html"> <img src="images/upload.png" id="upload-button"> </a>
 		<a href="pages/games.html"> <img src="images/games.png" id="Logo"></a>
 		<a href="pages/movies.html"> <img src="images/movies.png" id="Logo"></a>
 		<a id="Logo">Our motto -></a>
-			<audio controls="controls">
+			<audio controls="controls" id="header-player">
 				<source src="music/intro.mp3" type="audio/mp3"/>
 				<source src="music/intro.wav" type="audio/wav"/>
 				Your browser does not support the audio file you dip
 			</audio>
+      <a href="pages/testUser.html"> <img src="images/testuser.png" id="user-button"> </a>
 	</div>
-	
+
 	<!--Player-->
 	<div class="stuff">
 	<a id="song-title">Strudle Me Daddy</a>
 	<br>
 	<a id="song-title">Strudle Master</a>
 	<br>
-	<audio controls="controls">
+	<audio controls="controls" id="audio-player">
 		<source src="music/test.mp3" type="audio/mp3"/>
 		<source src="music/test.wav" type="audio/wav"/>
 		Your browser does not support the audio file you dip
 	</audio>
-		
+
 		<img src="images/like-button.png" id="like-button">
-		<img src="images/dislike-sfw.png" id="like-button">
-	</div>
-	
+    <img src="images/dislike-button.png" id="like-button">
+  </div>
+
+  <!--Player-->
 	<div class="stuff">
 	<a id="song-title">Mr Carter - Lil Wayne the Game</a>
 	<br>
 	<a id="song-title">NeutralStar</a>
 	<br>
-	<audio controls="controls">
+	<audio controls="controls" id="audio-player">
 		<source src="music/shitpost.mp3" type="audio/mp3"/>
 		<source src="music/shitpost.wav" type="audio/wav"/>
 		Your browser does not support the audio file you dipshit
 	</audio>
-		
+
 		<img src="images/like-button.png" id="like-button">
-		<img src="images/dislike-sfw.png" id="like-button">
+		<img src="images/dislike-button.png" id="like-button">
 	</div>
-	
+
   <script src="scripts/main.js"></script>
   <script src="scripts/main.js"></script>
 </body>
 </html>
-
-
